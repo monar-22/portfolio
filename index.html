@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="media.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Mona</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+    
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham">
+        <div class="logo">Mona</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="togg()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#about" onclick="togg()">About</a></li>
+                <li><a href="#skills" onclick="togg()">Skills</a></li>
+                <li><a href="#projects" onclick="togg()">Projects</a></li>
+                <li><a href="#contact" onclick="togg()">Contact</a></li>
+            
+        </div>
+        </div>
+    </nav>
+    
+    <section id="profile">
+
+        <div class="sec_pic" id="circle">
+            <img src="images/mypic3.jpg" alt="mypic">
+        </div>
+
+        <div class="sec_txt">
+            <p class="sec_txt_p1">Hello I'm</p>
+            <h1 class="title">Mona</h1>
+            <p class="sec_txt_p2">Fullstack Developer</p>
+
+            <div class="btn-con">
+                <button class="btn btn-color-2" onclick="window.open('images/fin_res2.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+
+            <div id="soc-con">
+                <img src="images/linkedin.png" alt="linkedin_dp" class="icon" onclick="location.href='https://www.linkedin.com/in/mona-r-2678aa228'">
+                <img src="images/github.png" alt="git_dp" class="icon" onclick="location.href='https://github.com/monar-22'"/>
+            </div>
+        </div>
+    </section>
+
+
+<section id="about">
+    <p class="sec_txt_p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+
+    <div class="sec-con">
+
+        <div class="sec_pic">
+            <img src="images/mypic.jpg" alt="Dp" class="abt-pic">
+        </div>
+
+        <div class="abt-det-con">
+            <div class="abt-con">
+                <div class="det-con">
+                    <img src="images/experience.png" alt="exp icon" class="icon">
+                    <h3>Skills</h3>
+                </div>
+              
+           
+
+                <div class="det-con">
+                <img src="images/education.png" alt="education icon" class="icon">
+                <h3>Education</h3>
+                <p>B.Tech IT</p>
+                </div>
+            </div>
+
+            <div class="txt-con">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ipsa et eius, inventore, suscipit culpa atque iste quos est ullam velit nam illum beatae fugit omnis vel repellendus ad vitae.</p>
+            </div>
+        
+
+        </div>
+    </div>
+    <img src="images/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+
+<section id="exp">
+    <p class="sec_txt_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="exp-det-con">
+    <div class="abt-con">
+        <div class="det-con">
+            <h2 class="exp-sub-tit">Frontend Development</h2>
+            <div class="article-con">
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>C</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>C++</h3>
+                        <p>Begineer</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>Java</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>Datastructure</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>UI/UX</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+        <div class="det-con">
+            <h2 class="exp-sub-tit">Frontend Development</h2>
+            <div class="article-con">
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>MySql</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>React</h3>
+                        <p>Begineer</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>NodeJs</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>ExpressJs</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
+                        <h3>MongoDB</h3>
+                        <p>Begineer</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </div>
+</div>
+<img src="images/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+
+<section id="proj">
+    <p class="sec_txt_p1">Browse my recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="exp-det-con">
+        <div class="abt-con">
+        <div class="det-con color-con">
+            <div class="article-con">
+                <img src="images/voi.gif" alt="project" class="proj-img">
+            </div>
+            <h2 class="exp-sub-tit proj-title">Voice Assistant</h2>
+            <div class="btn-con">
+                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">GitHUb </button>
+
+                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button>
+            </div>
+           
+        </div>
+
+        <div class="det-con color-con">
+            <div class="article-con">
+                <img src="images/voi.gif" alt="project" class="proj-img">
+            </div>
+            <h2 class="exp-sub-tit proj-title">Voice Assistant</h2>
+            <div class="btn-con">
+                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">GitHUb </button>
+
+                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button>
+            </div>
+           
+        </div>
+
+        <div class="det-con color-con">
+            <div class="article-con">
+                <img src="images/doc_img.jpg" alt="project" class="proj-img">
+            </div>
+            <h2 class="exp-sub-tit proj-title">Voice Assistant</h2>
+            <div class="btn-con">
+                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">GitHUb </button>
+
+                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button>
+            </div>
+           
+        </div>
+    </div>
+    </div>
+    <img src="images/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+
+<section id="contact">
+    <p class="sec_txt_p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="con-info-up-con">
+
+        <div class="contact-info-con">
+            <img src="images/email.png" alt="Email icon" class="icon contact-icon email-icon">
+            <p><a href="mona06547@gmail.com">mona06547@gmail.com</a></p>
+        </div>
+    
+        <div class="contact-info-con">
+            <img src="images/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/mona-r-2678aa228">LinkedIn</a></p>
+        </div>
+
+    </div>
+    
+</section>
+
+<footer>
+    <nav>
+        <div class="nav-links-con">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+    
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 Mona.All Rights Reserved.</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

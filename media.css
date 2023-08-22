@@ -1,0 +1,68 @@
+@media screen and (max-width:1400px){
+#profile{
+    height:83vh;
+    margin-bottom: 6rem;
+}
+.abt-con{
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display:none;
+    }
+
+    #ham{
+        display:flex;
+    }
+
+    #exp,.exp-det-con{
+        margin-top:2rem;
+    }
+
+    #profile,.sec-con{
+        display: block;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    section,.sec-con{
+        height: fit-content;
+    }
+
+    section{
+        margin:0 5%;
+    }
+    .sec_pic-con{
+        width: 275px;
+        height: 275px;
+        margin:0 auto 2rem;
+    }
+
+    .abt-con{
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width:600px){
+    #contact,footer{
+        height: 40vh;
+    }
+
+    #profile{
+        height:83vh;
+        margin-bottom: 0;
+
+    }
+.article{
+    font-size: 1rem;
+}
+
+footer nav{
+    height
+}
+
+}
