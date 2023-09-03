@@ -36,7 +36,7 @@
     section{
         margin:0 5%;
     }
-    .sec_pic-con{
+    .sec_pic{
         width: 275px;
         height: 275px;
         margin:0 auto 2rem;
@@ -57,12 +57,56 @@
         margin-bottom: 0;
 
     }
-.article{
+    article{
     font-size: 1rem;
-}
+    }
 
-footer nav{
-    height
-}
+    footer nav{
+    height:fit-content;
+    margin-bottom: 2rem;
+    }
 
+    .abt-con,.con-info-up-con,.btn-con{
+        flex-wrap: wrap;
+    }
+
+    .con-info-up-con{
+        margin:0;
+    }
+
+    .contact-info-con p,.nav-links li a{
+        font-size:1rem;
+    }
+
+    .exp-sub-tit{
+        font-size: 1.25rem;
+    }
+     
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .nav-links{
+        flex-direction:column ;
+        gap:0.5rem;
+        text-align: center;
+    }
+
+    .sec_pic{
+        width:auto;
+        height:46vw;
+        justify-content: center;
+    }
+
+    .sec_txt_p2{
+        font-size: 1.25rem;
+    }
+
+    .title{
+        font-size:2rem;
+    }
+
+    .txt-con{
+        text-align: justify;
+    }
 }

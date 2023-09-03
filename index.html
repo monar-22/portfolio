@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="media.css"/>
 </head>
 <body>
+    <section id="home">
     <nav id="desktop-nav">
         <div class="logo">Mona</div>
         <div>
@@ -65,50 +66,66 @@
         </div>
     </section>
 
-
+</section>
 <section id="about">
     <p class="sec_txt_p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
-
-    <div class="sec-con">
-
-        <div class="sec_pic">
-            <img src="images/mypic.jpg" alt="Dp" class="abt-pic">
+    <h2 style="text-align: center; margin-bottom: 40px;">Education</h2>
+  
+    <!-- <img src="images/education.png" alt="education icon" class="icon"> -->
+<div class="abt">
+    
+    <div class="tcon">
+       
+        <div class="time">
+            
+            <ul>
+                <li>
+                    <div class="time-con">
+                        <h1>Alagar Public School</h1>
+                        <h2>2018-2019</h2>
+                        <p>SSLC-84%</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time-con">
+                        <h1>Alagar Public School</h1>
+                        <h2>2020-2021</h2>
+                        <p>HSC-90%</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time-con">
+                        <h1>Sri Eshwar College of Engineering</h1>
+                        <h2>2021-2025</h2>
+                        <p>CGPA-8.1</p>
+                    </div>
+                </li>
+            </ul>
         </div>
-
-        <div class="abt-det-con">
-            <div class="abt-con">
-                <div class="det-con">
-                    <img src="images/experience.png" alt="exp icon" class="icon">
-                    <h3>Skills</h3>
-                </div>
-              
-           
-
-                <div class="det-con">
-                <img src="images/education.png" alt="education icon" class="icon">
-                <h3>Education</h3>
-                <p>B.Tech IT</p>
-                </div>
-            </div>
-
-            <div class="txt-con">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ipsa et eius, inventore, suscipit culpa atque iste quos est ullam velit nam illum beatae fugit omnis vel repellendus ad vitae.</p>
-            </div>
         
-
-        </div>
     </div>
+     <!-- <div class="cer">
+        <h1 >Certificates</h1>
+        <ul>
+            <li>BEC (Business English Certificate)</li>
+            <li>JLPT N5</li>
+            <li>UDEMY-Data Structures and Algorithms,Java</li>
+            <li>Principles of UX/UI Design course offered by Meta</li>
+            <li>HackerRank-MySql</li>
+        </ul>
+     </div> -->
+</div>
     <img src="images/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
 </section>
 
 <section id="exp">
     <p class="sec_txt_p1">Explore My</p>
-    <h1 class="title">Experience</h1>
+    <h1 class="title">Skills</h1>
     <div class="exp-det-con">
     <div class="abt-con">
         <div class="det-con">
-            <h2 class="exp-sub-tit">Frontend Development</h2>
+            <h2 class="exp-sub-tit">Programming</h2>
             <div class="article-con">
                 <article>
                     <img src="images/checkmark.png" alt="exp icon" class="icon"/>
@@ -122,7 +139,7 @@
                     <img src="images/checkmark.png" alt="exp icon" class="icon"/>
                     <div>
                         <h3>C++</h3>
-                        <p>Begineer</p>
+                        <p>Beginner</p>
                     </div>
                 </article>
 
@@ -138,7 +155,7 @@
                     <img src="images/checkmark.png" alt="exp icon" class="icon"/>
                     <div>
                         <h3>Datastructure</h3>
-                        <p>Experienced</p>
+                        <p>Begineer</p>
                     </div>
                 </article>
 
@@ -153,16 +170,8 @@
             </div>
         </div>
         <div class="det-con">
-            <h2 class="exp-sub-tit">Frontend Development</h2>
+            <h2 class="exp-sub-tit">FullStack Development</h2>
             <div class="article-con">
-                <article>
-                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
-                    <div>
-                        <h3>MySql</h3>
-                        <p>Intermediate</p>
-                    </div>
-                </article>
-
                 <article>
                     <img src="images/checkmark.png" alt="exp icon" class="icon"/>
                     <div>
@@ -190,6 +199,14 @@
                 <article>
                     <img src="images/checkmark.png" alt="exp icon" class="icon"/>
                     <div>
+                        <h3>MySql</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/checkmark.png" alt="exp icon" class="icon"/>
+                    <div>
                         <h3>MongoDB</h3>
                         <p>Begineer</p>
                     </div>
@@ -209,39 +226,44 @@
         <div class="abt-con">
         <div class="det-con color-con">
             <div class="article-con">
-                <img src="images/voi.gif" alt="project" class="proj-img">
+                <img src="images/do1.jpg" alt="project" class="proj-img">
             </div>
-            <h2 class="exp-sub-tit proj-title">Voice Assistant</h2>
+            <h2 class="exp-sub-tit proj-title">Health Track</h2>
             <div class="btn-con">
-                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">GitHUb </button>
-
-                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button>
+                <button class="btn btn-color-2 proj-btn">
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                </button>
+                <!-- <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button> -->
             </div>
            
         </div>
 
         <div class="det-con color-con">
             <div class="article-con">
-                <img src="images/voi.gif" alt="project" class="proj-img">
+                <img src="images/voc.png" alt="project" class="proj-img">
             </div>
             <h2 class="exp-sub-tit proj-title">Voice Assistant</h2>
             <div class="btn-con">
-                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">GitHUb </button>
-
-                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button>
+                <button class="btn btn-color-2 proj-btn">
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                </button>
+                <!-- <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button> -->
             </div>
            
         </div>
 
         <div class="det-con color-con">
             <div class="article-con">
-                <img src="images/doc_img.jpg" alt="project" class="proj-img">
+                <img src="images/lemon_res.png" alt="project" class="proj-img">
             </div>
-            <h2 class="exp-sub-tit proj-title">Voice Assistant</h2>
+            <h2 class="exp-sub-tit proj-title">UI/UX design</h2>
             <div class="btn-con">
-                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">GitHUb </button>
-
-                <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button>
+                <!-- <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'" >GitHub </button> -->
+                <button class="btn btn-color-2 proj-btn">
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                </button>
+                
+                <!-- <button class="btn btn-color-2 proj-btn" onclick="location.href='https://github.com'">Demo </button> -->
             </div>
            
         </div>

@@ -152,6 +152,14 @@ section{
     justify-content: center;
     gap:5rem;
     height:80vh;
+
+}
+
+#home{
+    background-image: url(images/Simple-Blue-White-Background-Image.jpg);
+    background-size: cover;
+    margin: 0%;
+    
 }
 
 .sec_pic{
@@ -253,12 +261,22 @@ section{
 
 #about{
     position: relative;
+    
+}
+
+#about .title{
+   margin-bottom: 20px;
+}
+
+.abt{
+    display: flex;
 }
 
 .abt-con{
     gap:2rem;
     margin-bottom:2rem;
     margin-top:2rem;
+    /* margin-right:2rem; */
 }
 
 .abt-det-con{
@@ -269,11 +287,18 @@ section{
 .abt-con,.abt-det-con{
     display:flex;
 }
-
+/* 
 .abt-pic{
     border-radius:2rem;
 }
 
+.sch{
+    float:left;
+    text-align: start;
+}
+.date{
+    float:right;
+} */
 .arrow{
     position:absolute;
     right:-5rem;
@@ -281,14 +306,20 @@ section{
 }
 
 .det-con{
+    display: inline-block;
     border:rgb(53,53,53) 0.1rem solid;
     border-radius:2rem;
     border-color:rgb(163,163,163);
+    box-shadow: 5px 10px 8px #888888;
     padding: 1.5rem;
     flex:1;
     background:white;
     text-align: center;
 }
+
+/* .det-con span{
+    margin-left:40%;
+} */
 
 .sec-con{
     gap:4rem;
@@ -299,6 +330,10 @@ section{
     height: 400px;
     width: 400px;
     margin:auto 0;
+}
+.con li{
+     list-style: none;
+     text-align:start ;
 }
 
 /* Experience */
@@ -322,7 +357,7 @@ section{
 
 .article-con{
     display: flex;
-    text-align:center;
+    /* text-align:center; */
     flex-wrap: wrap;
     flex-direction: row;
     gap:2.5rem;
@@ -332,12 +367,17 @@ section{
 article{
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    text-align: left;
     gap:0.5rem;
 }
 
 #proj{
     position:relative;
+}
+
+#proj .det-con:hover{
+    transform: scale(1.1); 
 }
 
 .color-con{
@@ -410,4 +450,164 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+#par{
+    margin-bottom: 23px;
+}
+
+
+/* ABOUT */
+
+/* .tcon{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+
+.tcon{
+   /* min-height:100vh; */
+   width:100%;
+   display:flex; 
+    align-items: center; 
+   justify-content: center; 
+   float: left;
+  
+   /* margin: 0%; */
+   /* padding:100px 0; */
+   
+}
+
+.time{
+    width:40%;
+    height:auto;
+    max-width:800px;
+    margin:0 auto;
+    position:relative;
+}
+
+.time ul{
+    list-style:none;
+}
+
+.time ul li{
+    padding:20px;
+    background-color:rgb(230, 230, 230); 
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+.time ul li:last-child{
+    margin-bottom:0;
+
+}
+
+.time-con h1{
+   font-size:18px;
+   font-weight:500;
+line-height:30px;
+margin-bottom:10px;
+}
+
+.time-con p{
+    font-size: 16px;
+    line-height:30px;
+    font-weight:300;
+}
+
+.time-con h2{
+    font-size:13px;
+    font-weight:300;
+    margin-bottom:10px;
+    letter-spacing: 2px;
+}
+
+
+.cer li{
+    list-style: none;
+    margin-bottom: 20px;
+    height:50px;
+    background-color: #3b3b3b;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 10px;
+    color: white;
+    padding: 5%;
+    font-size :15px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.cer li:hover{
+    transform: scale(1.1); 
+}
+
+.cer h1{
+    text-align: center;
+    margin-bottom: 10%;
+}
+@media only screen and (min-width:768px){
+    .time::before{
+        content:'';
+        position:absolute;
+        height:100%;
+        width:2px;
+        left:50%;
+        transform:translateX(-50%);
+        background-color: rgb(118, 117, 117);
+    }
+    .time ul li{
+        width:50%;
+        margin-bottom:50px;
+        position:relative;
+    }
+
+    .time ul li:nth-child(odd){
+        float:left;
+        clear:right;
+        transform:translateX(-70px);
+        border-radius: 20px 0px 20px 20px;
+
+    }
+
+    .time ul li:nth-child(even){
+        float:right; 
+        clear:left;
+        transform:translateX(70px);
+        border-radius: 0px 20px 20px 20px;
+    }
+
+    .time ul li::after{
+        content:'';
+        position:absolute;
+        height:20px;
+        width:20px;
+        background-color:  rgb(118, 117, 117);
+        border-radius:50%;
+        top:0;
+    }
+
+    .time ul li:nth-child(odd)::after{
+        transform:translateX(50%,-50%);
+        right:-40px;
+    }
+    .time ul li:nth-child(even)::after{
+        transform:translateX(50%,-50%);
+        left:-40px;
+    }
+ 
+    .time ul li:hover:after{
+        background-color: black;
+    }
+    
+    .time-con h2{
+        position:absolute;
+        top:-30px;
+    }
+}
+
+.btn-con a{
+ text-decoration: none;
+ text-decoration-color:white ;
+
 }
